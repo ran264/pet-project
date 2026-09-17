@@ -1,0 +1,22 @@
+$kind: http-example
+request:
+  url: http://localhost:8080/api/v1/pets
+  method: POST
+response:
+  statusCode: 400
+  statusText: ""
+  headers:
+    content-type: application/json
+    transfer-encoding: chunked
+    date: Thu, 17 Sep 2026 02:04:58 GMT
+    connection: close
+  body:
+    type: json
+    content: |-
+      {
+        "timestamp": "2026-09-17T02:04:58.232+00:00",
+        "status": 400,
+        "error": "Bad Request",
+        "path": "/api/v1/pets"
+      }
+order: 1789610795777
